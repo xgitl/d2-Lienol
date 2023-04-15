@@ -13,6 +13,8 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
+find openwrt-package/other/lean -name "*Music*" -exec rm -rf {} ;
+
 # Add a feed source
 # echo 'src-svn adbyby_plus https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-adbyby-plus' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall;luci' >>feeds.conf.default
