@@ -22,4 +22,5 @@ echo 'src-git neteasemusic https://github.com/cnsilvan/luci-app-unblockneteasemu
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-turboacc package/luci-app-turboacc
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/adbyby package/adbyby
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-adbyby-plus package/luci-app-adbyby-plus
+svn co https://github.com/Lienol/openwrt-luci/trunk/applications/luci-app-watchcat package/luci-app-watchcat
 # git clone https://github.com/ilxp/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
