@@ -19,6 +19,7 @@ sed -i '/^src-git other/d' feeds.conf.default
 echo 'src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall;packages' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall;luci' >>feeds.conf.default
 echo 'src-git neteasemusic https://github.com/cnsilvan/luci-app-unblockneteasemusic' >>feeds.conf.default
+echo 'src-git adh https://github.com/rufengsuixing/luci-app-adguardhome' >>feeds.conf.default
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-turboacc package/luci-app-turboacc
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/adbyby package/adbyby
 svn co https://github.com/Lienol/openwrt-package/branches/other/lean/luci-app-adbyby-plus package/luci-app-adbyby-plus
